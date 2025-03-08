@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuKita - Toko Buku Online</title>
+    <!-- Tambahkan Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Tambahan CSS untuk mempercantik tampilan */
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .btn:hover {
+            transform: scale(2.0);
+            transition: 1.0s;
+        }
+
+        .card {
+             transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+              transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-img-top {
+                 transition: transform 0.3s ease;
+        }
+
+        .card:hover .card-img-top {
+                  transform: scale(1.1);
+        }
+        .custom-navbar {
+        background-color: #D2B48C; /* Warna oranye */
+        }
+        .product-img {
+    width: 100%;
+    height: 500px; 
+    object-fit: contain;
+}
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html">BukuKita</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Kategori.html">Kategori</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <h1>NOVEL</h1>
+    </div>
+
+    <section class="text-center my-5">
+        <h2>TOP 3 NOVEL</h2>
+    </section>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <td>&nbsp;</td>
+                <img src="NOVEL 1.jpg" class="card-img-top product-img" alt="Smartphone">
+                <td>&nbsp;</td>
+                <div class="card-body">
+                    <h5 class="card-title">Laut Bercerita</h5>
+                    <p class="card-text">Rp115.000</p>
+                    <h6 class="card-title">Sinopsis</h6>
+                    <p class="card-text">Laut Bercerita, bertutur tentang kisah keluarga yang kehilangan, sekumpulan sahabat yang merasakan kekosongan di dada, sekelompok orang yang gemar menyiksa dan lancar berkhianat, sejumlah keluarga yang mencari kejelasan makam anaknya, dan tentang cinta yang tak akan luntur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <td>&nbsp;</td>
+                <img src="NOVEL 2.jpg" class="card-img-top product-img" alt="Kaos Polos">
+                <td>&nbsp;</td>
+                <div class="card-body">
+                    <h5 class="card-title">Pulang</h5>
+                    <p class="card-text">Rp130.000</p>
+                    <h6 class="card-title">Sinopsis</h6>
+                    <p class="card-text">Novel Pulang adalah kisah dua generasi—Dimas Suryo dan putrinya, Lintang Utara—yang bersama-sama menetap di Paris, Prancis. Seperti ribuan warga Indonesia lain yang terjebak di berbagai negara dengan status stateless, keluarga Dimas Suryo tak pernah bisa pulang ke Indonesia karena paspor mereka dicabut dan kehidupan mereka terancam. Pada tahun 1998, Lintang Utara akhirnya berhasil menyentuh tanah air. Dia datang untuk mereka pengalaman keluarga korban Tragedi 1965 sebagai tugas akhir kuliahnya. Apa yang terkuak oleh Lintang bukan sekadar masa lalu ayahnya, tetapi juga bagaimana sejarah paling berdarah di Indonesia berkaitan dengan Dimas Suryo dan kawan-kawannya.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <td>&nbsp;</td>
+                <img src="NOVEL 3.jpg" class="card-img-top product-img" alt="Blender">
+                <td>&nbsp;</td>
+                <div class="card-body">
+                    <h5 class="card-title">Namaku Alam</h5>
+                    <p class="card-text">Rp120.000</p>
+                    <h6 class="card-title">Sinopsis</h6>
+                    <p class="card-text">Inilah yang kubayangkan detik-detik terakhir Bapak: 18 Mei 1970. Hari gelap. Langit berwarna hitam dengan garis ungu. Bulan bersembunyi di balik ranting pohon randu. Sekumpulan burung nasar bertengger di pagar kawat. Mereka mencium aroma manusia yang nyaris jadi mayat bercampur bau mesiu. Terdengar lolongan anjing berkepanjangan. Empat orang berbaris rapi, masing-masing berdiri dengan senapan yang diarahkan kepada Bapak. Hanya satu senapan berisi peluru mematikan. Selebihnya, peluru karet. Tak satu pun di antara keempat lelaki itu tahu siapa yang kelak menghentikan hidup Bapak. Pada usianya yang ke-33 tahun, Segara Alam menjenguk kembali masa kecilnya hingga dewasa. Semua peristiwa tertanam dengan kuat. Karena memiliki photographic memory, Alam ingat pertama kali dia ditodong senapan oleh seorang lelaki dewasa ketika masih berusia tiga tahun; pertama kali sepupunya mencercanya sebagai anak ‘pengkhianat negara’; pertama kali Alam berkelahi dengan seorang anak pengusaha besar yang menguasai sekolah; dan pertama kali dia jatuh cinta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<td>&nbsp;</td>
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2025 BukuKita.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
