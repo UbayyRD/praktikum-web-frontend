@@ -1,0 +1,15 @@
+body {
+    background-image: url("Jakarta_Skyline_Part_2.jpg");
+}
+.clock-container {
+    background: linear-gradient(135deg, #000000, #000000);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    min-width: 300px;
+}
+h1 {
+    font-family: 'Courier New', monospace;
+    font-size: 3rem;
+}
