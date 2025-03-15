@@ -1,0 +1,12 @@
+body {
+    background-image: url("math-images-5857406_1280.jpg");
+    background-position: 140px 160px;
+}
+.card {
+    max-width: 300px;
+    margin: auto;
+}
+button {
+    height: 50px;
+    font-size: 18px;
+}
