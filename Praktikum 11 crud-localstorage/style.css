@@ -1,0 +1,7 @@
+body {
+    background-color: #f8f9fa;
+    animation: backgroundAnimation 10s infinite ease-in-out;
+  }
+li span {
+    margin-right: 10px;
+  }
